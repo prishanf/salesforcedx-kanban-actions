@@ -19,7 +19,7 @@ inputs:
     required: true
 outputs:
   isMatch:
-  description: 'Whether the column was moved as expected'
+    description: 'Whether the column was moved as expected'
 runs:
   using: 'node12'
   main: 'lib/main.js'
